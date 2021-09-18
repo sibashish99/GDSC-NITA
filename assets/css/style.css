@@ -876,9 +876,14 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  background: #ffffff;
   position: relative;
   overflow: hidden;
+}
+
+.team .member img{
+  height: 300px;
+  width: 320px;
 }
 
 .team .member .member-info {
