@@ -329,11 +329,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin: 72px 0 -72px 0;
 }
 
-#hero h1 {
+#hero #main {
   margin: 0;
-  font-size: 48px;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 70px;
+  color: #4e4039;
+}
+
+#hero #sub{
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 30px;
   color: #4e4039;
 }
 
@@ -603,7 +611,11 @@ section {
   color: #5a6570;
 }
 
+.event ul{
+  padding-left: 15px;
+}
 .event li{
+  margin:0px;
   font-size: 15px;
   color: #5a6570;
 }
@@ -624,6 +636,7 @@ section {
 
 .btn-rsvp:hover {
   background: #ef7f4d;
+  color: #fff;
 }
 
 
