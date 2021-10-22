@@ -13,7 +13,6 @@ Hacktoberfest is a month-long celebration of open source, organised by Digital O
 * CSS 
 * JS
 
-## How to contribute 
 
 If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
 
@@ -46,3 +45,56 @@ Change to the repository directory on your computer (if you are not already ther
 ```
 cd contribute
 ```
+Now create a branch using the `git checkout` command:
+```
+git checkout -b <add-your-new-branch-name>
+```
+
+For example:
+```
+git checkout -b add-your-name
+```
+(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
+
+## Make necessary changes and commit those changes
+
+Now open `contributors.js` file in a text editor, add your name to it. Now, save the file.
+
+
+If you go to the project directory and execute the command `git status`, you'll see there are changes.
+
+
+Add those changes to the branch you just created using the `git add` command:
+
+```
+git add contributors.js
+```
+
+Now commit those changes using the `git commit` command:
+```
+git commit -m "Add <your-name> to Contributors list"
+```
+replacing `<your-name>` with your name.
+
+## Push changes to GitHub
+
+Push your changes using the command `git push`:
+```
+git push origin <add-your-branch-name>
+```
+replacing `<add-your-branch-name>` with the name of the branch you created earlier.
+
+## Submit your changes for review
+
+If you go to your repository on GitHub, you'll see a  `Compare & pull request` button. Click on that button.
+
+Now submit the pull request.
+
+Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+
+## Where to go from here?
+
+Congrats!  You just completed the standard _fork -> clone -> edit -> PR_ workflow that you'll encounter often as a contributor!
+
+Celebrate your contribution and share it with your friends and followers.
+
