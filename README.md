@@ -15,13 +15,34 @@ Hacktoberfest is a month-long celebration of open source, organised by Digital O
 
 ## How to contribute 
 
-1. Fork the repository by clicking on the fork buton on the top of this page.
-2. Clone the repository and paste the link on your terminal.
-3. Open the repository and create a branch.
-``` git checkout -b <branch-name> ```
-4.  Before commiting changes, check for `git status` to see the changes you done.
-5. Next `git add .` to add the changes to the branch.
-6.  commit the changes 
- ``` git commit -m "Add description about changes" ```
-7. Push the changes to GitHub repository
-``` git push origin <you-branch-name> ```
+If you don't have git on your machine, [install it]( https://help.github.com/articles/set-up-git/).
+
+## Fork this repository
+
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+## Clone the repository
+
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the clone button and then click the *copy to clipboard* icon.
+
+Open a terminal and run the following git command:
+
+```
+git clone "url you just copied"
+```
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+
+For example:
+```
+git clone https://github.com/this-is-you/contribute.git
+```
+where `this-is-you` is your GitHub username. Here you're copying the contents of the contribute repository on GitHub to your computer.
+
+## Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd contribute
+```
