@@ -34,7 +34,7 @@ where "url you just copied" (without the quotation marks) is the url to this rep
 
 For example:
 ```
-git clone https://github.com/this-is-you/contribute.git
+git clone https://github.com/this-is-you/GDSC-NITA.git
 ```
 where `this-is-you` is your GitHub username. Here you're copying the contents of the contribute repository on GitHub to your computer.
 
@@ -43,7 +43,7 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 Change to the repository directory on your computer (if you are not already there):
 
 ```
-cd contribute
+cd GDSC-NITA
 ```
 Now create a branch using the `git checkout` command:
 ```
@@ -52,13 +52,13 @@ git checkout -b <add-your-new-branch-name>
 
 For example:
 ```
-git checkout -b add-your-name
+git checkout -b add-your-branch
 ```
-(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
+(The name of the branch does not need to have the word *add* in it.)
 
 ## Make necessary changes and commit those changes
 
-Now open `contributors.js` file in a text editor, add your name to it. Now, save the file.
+Now open files in a text editor, add your changes to it. Now, save the file.
 
 
 If you go to the project directory and execute the command `git status`, you'll see there are changes.
@@ -67,14 +67,14 @@ If you go to the project directory and execute the command `git status`, you'll 
 Add those changes to the branch you just created using the `git add` command:
 
 ```
-git add contributors.js
+git add .
 ```
 
 Now commit those changes using the `git commit` command:
 ```
-git commit -m "Add <your-name> to Contributors list"
+git commit -m "Add <your-change> "
 ```
-replacing `<your-name>` with your name.
+replacing `<your-change>` with changes you have made.
 
 ## Push changes to GitHub
 
