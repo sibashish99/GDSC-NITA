@@ -1,4 +1,4 @@
-# GDSC-NITA-Official-Site
+# GDSC-NITA-Proposed-Site
 
 This project is created with HTML,CSS and JS where a beginner can contribute to learn more.
 `Create New issues and add more components to the project.`
